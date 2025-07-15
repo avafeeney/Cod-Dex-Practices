@@ -1,0 +1,49 @@
+/* Style for the container of each shopping item */
+.shopping-list {
+  text-align: center;
+  border: 3px solid lightblue;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+}
+
+.shopping-item {
+  width: 50%;
+  margin: auto;
+}
+
+.item-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style for the item name */
+.shopping-item strong {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* Style for the buttons */
+.shopping-item button {
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+/* Style for the quantity display */
+.shopping-item .quantity {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+/* Style for the plus and minus buttons */
+.shopping-item .btn-decrement {
+  color: #ff6347;
+}
+
+.shopping-item .btn-increment {
+  color: #32cd32;
+}
